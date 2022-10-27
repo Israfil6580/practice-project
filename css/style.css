@@ -1,5 +1,58 @@
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0%;
+    padding: 0%;
     box-sizing: border-box;
 }
+body {
+    font-family: poppins;
+}
+h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+.navbar ul {
+    margin-left: auto;
+}
+.card-body {
+padding: 70px 20px;
+}
+@media screen and (min-width:320px) {
+    .card-body {
+        padding: 50px 10px;
+        font-size: 15px;
+    }
+}
+@media screen and (min-width:576px) {
+    .card-body {
+        padding: 70px 20px;
+        font-size: 16px;
+    }
+}
+@media screen and (min-width:768px) {
+    .card-body {
+        padding: 30px 20px;
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width:992px) {
+    .card-body {
+        padding: 40px 20px;
+        font-size: 15px;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .card-body {
+        padding: 50px 20px;
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width:1400px) {
+    .card-body {
+        padding: 80px 20px;
+        font-size: 17px;
+    }
+}
+
