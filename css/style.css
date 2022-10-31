@@ -67,40 +67,6 @@ section {
 .services {
     background: #f9f9fa;
 }
-.m-testimonial {
-position: relative;
-width: 100%;
-}
-.tm-card {
-    position: relative;
-}
-.c-img img {
-    position: absolute;
-    height: 100px;
-    width: 100px;
-    border: 10px solid rgb(226, 226, 226);
-    border-radius: 50%;
-    top: 70%;
-    left: 21%;
-}
-.c1-img img {
-    position: absolute;
-    height: 100px;
-    width: 100px;
-    border: 10px solid rgb(226, 226, 226);
-    border-radius: 50%;
-    top: 70%;
-    left: 55%;
-}
-.c2-img img {
-    position: absolute;
-    height: 100px;
-    width: 100px;
-    border: 10px solid rgb(226, 226, 226);
-    border-radius: 50%;
-    top: 70%;
-    left: 89%;
-}
 @media screen and (max-width:992px) {
     .second-head {
         padding-top: 100px;
