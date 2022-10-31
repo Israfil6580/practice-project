@@ -1,99 +1,279 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Practice Project</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/all.min.css">
-    <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Practice Bootstrap</title>
+  <!-- bootstrap css (default) -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- font awesome css (default) -->
+  <link rel="stylesheet" href="css/all.min.css">
+  <!-- custom CSS -->
+  <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-
-
-    <!-- navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <div class="container">
-            <a class="navbar-brand" href="#">Navbar</a>
-            <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId"
-                aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="collapsibleNavId">
-                <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-                    <li class="nav-item nav-item1 px-2">
-                        <a class="nav-link active" href="#" aria-current="page">Home <span class="visually-hidden">(current)</span></a>
-                    </li>
-                    <li class="nav-item px-2">
-                        <a class="nav-link" href="#">Prices</a>
-                    </li>
-                    <li class="nav-item px-2">
-                        <a class="nav-link" href="#">Services</a>
-                    </li>
-                    <li class="nav-item px-2">
-                        <a class="nav-link" href="#">Team</a>
-                    </li>
-                    <li class="nav-item px-2">
-                        <a class="nav-link" href="#">Rating</a>
-                    </li>
-                    <li class="nav-item nav-item1 px-2">
-                        <a class="nav-link" href="#">Contact</a>
-                    </li>
-                </ul>
-            </div>
+  <!-- header start -->
+  <header>
+    <!-- navbar start -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+  <div class="container">
+    <a class="navbar-brand mx-4" href="#"><h4 class="mb-0">e<span class="td">N</span>no</h4></a>
+    <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+        aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavId">
+        <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
+            <li class="nav-item">
+                <a class="nav-link active px-3" href="#" aria-current="page">Home <span class="visually-hidden">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link px-3" href="#">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link px-3" href="#">Services</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link px-3" href="#">Portfolio</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle px-3" href="#" id="dropdownId" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                <div class="dropdown-menu" aria-labelledby="dropdownId">
+                    <a class="dropdown-item" href="#">Action 1</a>
+                    <a class="dropdown-item" href="#">Action 2</a>
+                </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-3" href="#">Contact</a>
+          </li>
+        </ul>
+        <a href="" class="btn navbar-btn btn-default shadow rounded mx-4">Get Started</a>
+    </div>
+  </div>
+</nav>
+<!-- navbar end -->
+<div class="second-head">
+<div class="container">
+<div class="row">
+    <div class="col-md-6 m-auto g-3">
+      <div class="left-header pe-lg-5">
+        <h1 class="py-2">Elegent and creative solutions</h1>
+        <p class="text-danger py-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo corrupti laborum ipsam tenetur dignissimos soluta.</p>
+<div class="button-header py-2">
+  <a href="" class="btn btn-default shadow rounded">Get Started</a>
+  <a href="" class="text-decoration-none text-success mx-2"><i class="fa-regular fa-circle-play"></i> Watch Video</a>
+</div>
       </div>
-    </nav>
-    <!-- navbar end -->
+    </div>
+    <div class="col-md-6 g-3">
+      <div class="right-header">
+<img src="./images/hero-img.png" class="img-fluid" alt="" srcset="">
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+  </header>
 
-    <section class="card-bundle my-5">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4 gx-4">
-                    <div class="card text-white bg-primary my-5 shadow">
-                      <img class="card-img-top" src="./images/here-are-all-windows-11-wallpapers-533253-11.jpg" alt="Hey Baby">
-                      <div class="card-body">
-                        <h4 class="card-title">Hey Baby</h4>
-                        <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus, assumenda. </p>
-                      </div>
-                    </div>
-                </div>
-                <div class="col-md-4 gx-4">
-                    <div class="card text-white bg-primary my-5 shadow">
-                      <img class="card-img-top" src="./images/here-are-all-windows-11-wallpapers-533253-11.jpg" alt="Hey Baby">
-                      <div class="card-body">
-                        <h4 class="card-title">Hey Baby</h4>
-                        <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus, assumenda. </p>
-                      </div>
-                    </div>
-                </div>
-                <div class="col-md-4 gx-4">
-                    <div class="card text-white bg-primary my-5 shadow">
-                      <img class="card-img-top" src="./images/here-are-all-windows-11-wallpapers-533253-11.jpg" alt="Hey Baby">
-                      <div class="card-body">
-                        <h4 class="card-title">Hey Baby</h4>
-                        <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus, assumenda. </p>
-                      </div>
-                    </div>
-                </div>
-            </div>
+<section class="simple">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 g-3">
+        <div class="simple-card p-4 bg-light rounded">
+          <i class="fa-solid fa-laptop py-3"></i>
+          <h5>Follow Mind</h5>
+          <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus nostrum nisi quae enim beatae, qui dicta facilis tempora reiciendis sapiente.</p>
         </div>
-    </section>
+      </div>
+      <div class="col-md-4 g-3">
+        <div class="simple-card bg-light p-4 rounded">
+          <i class="fa-solid fa-mobile py-3"></i>
+          <h5>Keep Attension</h5>
+          <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus nostrum nisi quae enim beatae, qui dicta facilis tempora reiciendis sapiente.</p>
+        </div>
+      </div>
+      <div class="col-md-4 g-3">
+        <div class="simple-card p-4 shadow rounded">
+          <i class="fa-solid fa-computer py-3"></i>
+          <h5>Analysis more</h5>
+          <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus nostrum nisi quae enim beatae, qui dicta facilis tempora reiciendis sapiente.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="third-simple">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 col-xl-6 m-auto">
+        <img src="./images/about.png" class="img-fluid py-3" alt="">
+      </div>
+      <div class="col-md-8 col-xl-6">
+        <h2>Doloremque, soluta minus iste saepe enim perferendis</h2>
+        <i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit doloremque tempora rerum illo quidem error earum reiciendis similique deleniti aut.</i>
+        <ul class="py-4">
+          <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus ratione quam consequatur id magni veniam quidem harum, reprehenderit incidunt iusto, fugit eveniet autem voluptatem, totam consequuntur doloribus obcaecati! Amet, dolorem.</li>
+          <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus ratione quam consequatur id magni veniam quidem harum.</li>
+          <li>Lorem ipsum dolor totam consequuntur doloribus obcaecati! Amet, dolorem.</li>
+        </ul>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque, soluta minus iste saepe enim perferendis?</p>
+      </div>
+    </div>
+  </section>
+    <!--  -->
+    <section class="graph">
+    <div class="container">
+      <div class="row text-center">
+      <div class="col-md-3">
+        <h2 class="text-success">232</h2>
+        <span>Clients</span>
+      </div>
+      <div class="col-md-3">
+        <h2 class="text-success">16</h2>
+        <span>Hard Worker</span>
+      </div>
+      <div class="col-md-3">
+        <h2 class="text-success">521</h2>
+        <span>Projects</span>
+      </div>
+      <div class="col-md-3">
+        <h2 class="text-success">1423</h2>
+        <span>Hours Of Support</span>
+      </div>
+    </div>
+  </div>
+  <!--  -->
+</section>
+
+<!-- services section -->
+<section class="services py-5">
+  <div class="container">
+  <div class="section-title">
+    <span>SERVICES</span>
+    <h2>SERVICES</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur beatae tempore molestias a iste magnam.</p>
+  </div>
+  
+  <div class="row">
+    <div class="col-md-3 g-3">
+      <div class="s-card text-center bg-white py-5 rounded">
+        <i class="fa-solid fa-laptop py-3"></i>
+        <h5>Follow Mind</h5>
+        <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit Possimus nostrum.</p>
+      </div>
+    </div>
+    <div class="col-md-3 g-3">
+      <div class="s-card text-center bg-white py-5 rounded">
+        <i class="fa-solid fa-desktop py-3"></i>
+        <h5>Keep Attension</h5>
+        <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit Possimus nostrum.</p>
+      </div>
+    </div>
+    <div class="col-md-3 g-3">
+      <div class="s-card text-center bg-white py-5 rounded">
+        <i class="fa-solid fa-box py-3"></i>
+        <h5>Collect More</h5>
+        <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit Possimus nostrum.</p>
+      </div>
+    </div>
+    <div class="col-md-3 g-3">
+      <div class="s-card text-center bg-white py-5 rounded">
+        <i class="fa-solid fa-water py-3"></i>
+        <h5>Make Minimal</h5>
+        <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit Possimus nostrum.</p>
+      </div>
+    </div>
+    <div class="col-md-3 g-3">
+      <div class="s-card text-center bg-white py-5 rounded">
+        <i class="fa-solid fa-keyboard py-3"></i>
+        <h5>Work Fast</h5>
+        <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit Possimus nostrum.</p>
+      </div>
+    </div>
+    <div class="col-md-3 g-3">
+      <div class="s-card text-center bg-white py-5 rounded">
+        <i class="fa-solid fa-home py-3"></i>
+        <h5>Work Hard</h5>
+        <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit Possimus nostrum.</p>
+      </div>
+    </div>
+    <div class="col-md-3 g-3">
+      <div class="s-card text-center bg-white py-5 rounded">
+        <i class="fa-solid fa-user py-3"></i>
+        <h5>Follow Senior</h5>
+        <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit Possimus nostrum.</p>
+      </div>
+    </div>
+    <div class="col-md-3 g-3">
+      <div class="s-card text-center bg-white py-5 rounded">
+        <i class="fa-solid fa-youtube py-3"></i>
+        <h5>Believe Yourself</h5>
+        <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit Possimus nostrum.</p>
+      </div>
+    </div>
+  </div>
+
+  </div>
+</section>
+<!-- services section -->
+<section class="testimonial">
+  <div class="container">
+    <div class="section-title">
+      <span>TESTIMONIAL</span>
+      <h2>TESTIMONIAL</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur beatae tempore molestias a iste magnam.</p>
+    </div>
+
+<!--  -->
+<!--  -->
+<!--  -->
+<div class="m-testimonial">
+  <div class="row">
+    <div class="col-md-4 p-3">
+      <div class="tm-card border p-4 rounded shadow">     <!--  tm-card(testimonial-card) -->
+            <i class="fa-solid fa-water"></i>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet quas doloremque cum vel eius fugiat dolorem quidem excepturi tempora! Autem?</p>
+            <i class="fa-solid fa-water"></i>
+      </div>
+      <div class="c-img">
+        <img src="./images/testimonials/testimonials-1.jpg" alt="">
+      </div>
+    </div>
+    <div class="col-md-4 p-3">
+      <div class="tm-card border p-4 rounded shadow">     <!--  tm-card(testimonial-card) -->
+            <i class="fa-solid fa-water"></i>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet quas doloremque cum vel eius fugiat dolorem quidem excepturi tempora! Autem?</p>
+            <i class="fa-solid fa-water"></i>
+      </div>
+      <div class="c1-img">
+        <img src="./images/testimonials/testimonials-2.jpg" alt="">
+      </div>
+    </div>
+    <div class="col-md-4 p-3">
+      <div class="tm-card border p-4 rounded shadow">     <!--  tm-card(testimonial-card) -->
+            <i class="fa-solid fa-water"></i>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet quas doloremque cum vel eius fugiat dolorem quidem excepturi tempora! Autem?</p>
+            <i class="fa-solid fa-water"></i>
+      </div>
+      <div class="c2-img">
+        <img src="./images/testimonials/testimonials-3.jpg" alt="">
+      </div>
+    </div>
+    
+  </div>
+</div>
 
 
+  </div>
+</section>
 
-
-
-
-
-
-
-
-
-
-
-    <!-- script -->
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+  <!-- script -->
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
 </body>
+
 </html>
